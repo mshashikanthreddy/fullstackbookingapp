@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<body>
+  <h2>BOOKING APPOINTMENT APP</h2>
+  <div>
+  <form onsubmit="registerUser(event) " >
+    <div>
+      <label>User Name</label>
+    </div>
+    <div>
+      <input type="text" id="username" name="username" required />
+    </div>
+    <div>
+      <label>Phone Number</label>
+    </div>
+    <div>
+      <input type="number" id="phonenumber" name="phonenumber" required />
+    </div>
+    <div>
+      <label>Email</label>
+    </div>
+    <div>
+      <input type="email" id="email" name="email" required />
+    </div>
+    <button>Submit</button>
+  </form>
+  <ul id="listOfUsers"></ul>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+  <script src = 'form.js' ></script>
+</body>
+</html>
